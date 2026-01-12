@@ -1,6 +1,6 @@
 LineageOS-20:
   kernel:
-    - git clone https://github.com/sidex15/android_kernel_lge_sm8150 -b stock
+    - git clone --depth=1 https://github.com/sidex15/android_kernel_lge_sm8150 -b stock
   clang:
     - git clone --depth=1 https://gitlab.com/Jprimero15/lolz_clang.git
   config:
