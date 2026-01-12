@@ -2,7 +2,7 @@ LineageOS-20:
   kernel:
     - git clone https://github.com/sidex15/android_kernel_lge_sm8150 -b stock
   clang:
-    - git clone --depth=1 https://gitlab.com/Jprimero15/lolz_clang.git -b main
+    - git clone --depth=1 https://gitlab.com/Jprimero15/lolz_clang.git
   config:
     - make O=out ARCH=arm64 lineage-nashc_defconfig
   build:
